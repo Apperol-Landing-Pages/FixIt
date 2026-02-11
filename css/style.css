@@ -35,7 +35,7 @@ body {
 
 
 .container-header {
-  background: #055EEB;
+  background: #1E56CD;
   padding: 30px 16px;
   position: sticky;
   top: 0;
@@ -85,7 +85,7 @@ body {
 .fullscreen-menu {
   position: fixed;
   inset: 0;
-  background: #055EEB;
+  background: #1E56CD;
   z-index: 30;
 
   display: flex;
@@ -140,7 +140,7 @@ body {
   font-size: 20px;
 }
 
-.main-cleango{
+.main-FixIt{
    padding-top: 60px;
   position: relative;
   padding-top: calc(var(--header-bar-h) + 90px);
@@ -155,7 +155,7 @@ body {
   padding: 0 16px;
   margin: 0 auto;
   padding-top: 15px;
-    background: #055EEB;
+    background: #1E56CD;
     
 }
 
@@ -195,7 +195,27 @@ position: relative;
   display: block;
   align-items: center;
   padding-top: 35px;
+     -webkit-mask-image: linear-gradient(
+    to top,
+    transparent 0%,
+    black 40%
+  );
+  mask-image: linear-gradient(
+    to top,
+    transparent 10%,
+    black 40%
+  );
 
+}
+
+.main-el{
+      position: absolute;
+  top: 41%;       
+  left: 25.5%;
+  width: 50%;
+  height: 30%;
+  border-radius: 22px; 
+  pointer-events: none;
 }
 
 @media (max-width: 450px) {
@@ -218,10 +238,15 @@ position: relative;
     
     }
   
-  .main-banner-img img {
-    content: url("../assets/img/iPhone-main.svg");
-      padding-top: 0px;
-  }
+.main-el{
+      position: absolute;
+  top: 41%;       
+  left: 4.5%;
+  width: 93%;
+  height: 34%;
+  border-radius: 22px; 
+  pointer-events: none;
+}
 }
 
 info-bloсk{
@@ -312,7 +337,7 @@ questions{
   margin: 40px auto;
   padding: 20px 24px 70px;
   position: relative;
-  background: #055EEB;
+  background: #1E56CD;
   overflow: hidden;
 }
 
@@ -513,7 +538,7 @@ questions{
   letter-spacing: 0.5px;
   text-align: center;
   border-radius: 8px;
-  background: #055EEB;
+  background: #1E56CD;
   margin: 20px auto;
 }
 
@@ -522,7 +547,7 @@ questions{
   max-width: 768px;
   padding: 30px 16px;
   margin: 0 auto;
-  background-color: #055EEB;
+  background-color: #1E56CD;
 }
 
 .footer-content{
@@ -540,7 +565,7 @@ questions{
 
 
 .footer-title {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
   color: #FFFFFF;
 }
